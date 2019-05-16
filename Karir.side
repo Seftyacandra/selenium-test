@@ -1,0 +1,170 @@
+{
+  "id": "01b5d70d-96d1-4f4d-90f3-bcf075121735",
+  "version": "2.0",
+  "name": "Karir",
+  "url": "https://kasirpintar.co.id/",
+  "tests": [{
+    "id": "f402d46d-f44b-4a02-b2c8-43762fd3d1de",
+    "name": "Untitled",
+    "commands": [{
+      "id": "cfb45142-5f3d-4dff-b016-7fffc220070e",
+      "comment": "",
+      "command": "open",
+      "target": "https://kasirpintar.co.id/careers",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "435feca5-adbf-4196-b9bf-4d31906b4a91",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "625x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "188f4f37-f676-4e1d-8f07-e1c678728701",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Karir",
+      "targets": [
+        ["linkText=Karir", "linkText"],
+        ["css=.footer-section:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Karir')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/careers')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Karir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48cc4870-5a43-40b7-b0a7-d3c61ce4bb44",
+      "comment": "",
+      "command": "click",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10791817-8912-4ba5-87a3-61b59ccbcb61",
+      "comment": "",
+      "command": "type",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Quality Assurance Engineer"
+    }, {
+      "id": "61510d04-6faf-4fef-a358-3394e03cec7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=divisi",
+      "targets": [
+        ["id=divisi", "id"],
+        ["css=#divisi", "css:finder"],
+        ["xpath=//select[@id='divisi']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6664db4a-c154-4e96-8a99-9ecc8ba5b16b",
+      "comment": "",
+      "command": "select",
+      "target": "id=divisi",
+      "targets": [],
+      "value": "label=Technology"
+    }, {
+      "id": "f3fa8253-0756-4efa-8196-c0f5e4aededa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divisi > option:nth-child(2)",
+      "targets": [
+        ["css=#divisi > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='4']", "xpath:attributes"],
+        ["xpath=//select[@id='divisi']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Technology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "763b9a71-725c-4eb6-8e12-d163eb89890e",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a300f125-d7e7-4c06-8594-a83a6ccb2ebd",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=tr:nth-child(5) .btn",
+      "targets": [
+        ["css=tr:nth-child(5) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Lebih Detail')])[5]", "xpath:link"],
+        ["xpath=//section[@id='lihat_video']/div/div/div/div/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/career_detail/quality-assurance-engineer')]", "xpath:href"],
+        ["xpath=//tr[5]/td[4]/a", "xpath:position"]
+      ],
+      "value": "69.86666870117188,14.79998779296875"
+    }, {
+      "id": "5833e564-4acc-4711-bef6-15b546ab5ae7",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=tr:nth-child(5) .btn",
+      "targets": [
+        ["css=tr:nth-child(5) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Lebih Detail')])[5]", "xpath:link"],
+        ["xpath=//section[@id='lihat_video']/div/div/div/div/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/career_detail/quality-assurance-engineer')]", "xpath:href"],
+        ["xpath=//tr[5]/td[4]/a", "xpath:position"]
+      ],
+      "value": "69.86666870117188,14.79998779296875"
+    }, {
+      "id": "243cbf01-7187-4b69-9fd5-3ad6f9a8d1cc",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=tr:nth-child(5) .btn",
+      "targets": [
+        ["css=tr:nth-child(5) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Lebih Detail')])[5]", "xpath:link"],
+        ["xpath=//section[@id='lihat_video']/div/div/div/div/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/career_detail/quality-assurance-engineer')]", "xpath:href"],
+        ["xpath=//tr[5]/td[4]/a", "xpath:position"]
+      ],
+      "value": "69.86666870117188,14.79998779296875"
+    }, {
+      "id": "e4652acd-b61f-4131-824e-f3f6e288c556",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .btn",
+      "targets": [
+        ["css=tr:nth-child(5) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Lebih Detail')])[5]", "xpath:link"],
+        ["xpath=//section[@id='lihat_video']/div/div/div/div/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/career_detail/quality-assurance-engineer')]", "xpath:href"],
+        ["xpath=//tr[5]/td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2c32adb9-c458-4a09-84dc-79cc7c3aebc4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f402d46d-f44b-4a02-b2c8-43762fd3d1de"]
+  }],
+  "urls": ["https://kasirpintar.co.id/"],
+  "plugins": []
+}
